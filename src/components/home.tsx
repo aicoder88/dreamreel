@@ -67,7 +67,7 @@ const Home = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
               >
-                Create Amazing AI Videos of Yourself
+                YOU, STARRING IN YOUR WILDEST DREAMS
               </motion.h1>
               <motion.p
                 className="mt-4 text-xl text-muted-foreground"
@@ -75,8 +75,7 @@ const Home = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
               >
-                High-quality, personalized AI-generated videos for just $5-$10.
-                Imagine yourself doing anything, anywhere.
+                Custom AI Videos That Put YOU in the Spotlight - Starting at Just $5!
               </motion.p>
               <motion.div
                 className="mt-8 flex flex-col sm:flex-row gap-4"
@@ -124,11 +123,16 @@ const Home = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold">
-              See What's Possible
+              IMAGINE YOURSELF ANYWHERE, DOING ANYTHING
             </h2>
             <p className="mt-4 text-xl text-muted-foreground max-w-2xl mx-auto">
-              Browse our gallery of AI-generated videos to see the amazing
-              possibilities.
+              Let's be honest... We've all had those moments. Scrolling through social media, seeing incredible adventures, jaw-dropping stunts, and once-in-a-lifetime experiences that seem forever out of reach.
+              <br /><br />
+              <strong>But what if they weren't?</strong>
+              <br /><br />
+              What if YOU could be the star of any scenario your mind can conjure – without the danger, expense, or impossibility standing in your way?
+              <br /><br />
+              Our breakthrough AI video technology makes the impossible... <strong>instantly possible</strong>.
             </p>
           </div>
           <VideoGallery />
@@ -140,10 +144,10 @@ const Home = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold">
-              Simple, Transparent Pricing
+              PRICING THAT MAKES SENSE
             </h2>
             <p className="mt-4 text-xl text-muted-foreground max-w-2xl mx-auto">
-              High-quality AI videos at affordable prices. No hidden fees.
+              High-quality AI videos at affordable prices. 100% satisfaction guarantee - if your video doesn't make your jaw drop, we'll remake it or refund you. No questions asked.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -151,7 +155,7 @@ const Home = () => {
             <Card className="border-2 hover:border-primary transition-all duration-300">
               <CardContent className="pt-6">
                 <div className="text-center">
-                  <h3 className="text-2xl font-bold">Basic</h3>
+                  <h3 className="text-2xl font-bold">BASIC ADVENTURE</h3>
                   <div className="mt-4 flex items-baseline justify-center">
                     <span className="text-5xl font-extrabold">$5</span>
                     <span className="ml-1 text-xl text-muted-foreground">
@@ -161,19 +165,19 @@ const Home = () => {
                   <ul className="mt-8 space-y-4 text-left">
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-green-500 mr-2 flex-shrink-0" />
-                      <span>15-second AI video</span>
+                      <span>15-second custom video</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-green-500 mr-2 flex-shrink-0" />
-                      <span>Standard resolution</span>
+                      <span>Standard quality</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-green-500 mr-2 flex-shrink-0" />
-                      <span>1 revision included</span>
+                      <span>Delivery within 24 hours</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-green-500 mr-2 flex-shrink-0" />
-                      <span>Delivery within 48 hours</span>
+                      <span>1 person in video</span>
                     </li>
                   </ul>
                   <Button className="mt-8 w-full" asChild>
@@ -190,9 +194,9 @@ const Home = () => {
               </div>
               <CardContent className="pt-6">
                 <div className="text-center">
-                  <h3 className="text-2xl font-bold">Standard</h3>
+                  <h3 className="text-2xl font-bold">PREMIUM EXPERIENCE</h3>
                   <div className="mt-4 flex items-baseline justify-center">
-                    <span className="text-5xl font-extrabold">$8</span>
+                    <span className="text-5xl font-extrabold">$10</span>
                     <span className="ml-1 text-xl text-muted-foreground">
                       /video
                     </span>
@@ -200,19 +204,19 @@ const Home = () => {
                   <ul className="mt-8 space-y-4 text-left">
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-green-500 mr-2 flex-shrink-0" />
-                      <span>30-second AI video</span>
+                      <span>30-second custom video</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-green-500 mr-2 flex-shrink-0" />
-                      <span>HD resolution</span>
+                      <span>Enhanced quality</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-green-500 mr-2 flex-shrink-0" />
-                      <span>2 revisions included</span>
+                      <span>Priority processing</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-green-500 mr-2 flex-shrink-0" />
-                      <span>Delivery within 24 hours</span>
+                      <span>1 person in video</span>
                     </li>
                   </ul>
                   <Button className="mt-8 w-full" asChild>
@@ -226,9 +230,9 @@ const Home = () => {
             <Card className="border-2 hover:border-primary transition-all duration-300">
               <CardContent className="pt-6">
                 <div className="text-center">
-                  <h3 className="text-2xl font-bold">Premium</h3>
+                  <h3 className="text-2xl font-bold">GROUP PACKAGE</h3>
                   <div className="mt-4 flex items-baseline justify-center">
-                    <span className="text-5xl font-extrabold">$10</span>
+                    <span className="text-5xl font-extrabold">$15</span>
                     <span className="ml-1 text-xl text-muted-foreground">
                       /video
                     </span>
@@ -236,19 +240,19 @@ const Home = () => {
                   <ul className="mt-8 space-y-4 text-left">
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-green-500 mr-2 flex-shrink-0" />
-                      <span>45-second AI video</span>
+                      <span>30-second custom video</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-green-500 mr-2 flex-shrink-0" />
-                      <span>4K resolution</span>
+                      <span>Enhanced quality</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-green-500 mr-2 flex-shrink-0" />
-                      <span>3 revisions included</span>
+                      <span>Include up to 4 people</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-green-500 mr-2 flex-shrink-0" />
-                      <span>Priority delivery (12 hours)</span>
+                      <span>Priority processing</span>
                     </li>
                   </ul>
                   <Button className="mt-8 w-full" asChild>
@@ -265,9 +269,9 @@ const Home = () => {
       <section id="how-it-works" className="py-20 px-4 md:px-6">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold">How It Works</h2>
+            <h2 className="text-3xl md:text-4xl font-bold">HOW IT WORKS: 3 SIMPLE STEPS</h2>
             <p className="mt-4 text-xl text-muted-foreground max-w-2xl mx-auto">
-              Creating your custom AI video is simple and straightforward.
+              Creating your custom AI video is simple and takes just minutes to order.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -278,11 +282,10 @@ const Home = () => {
                     <span className="text-xl font-bold text-primary">1</span>
                   </div>
                   <h3 className="mt-4 text-xl font-bold">
-                    Describe Your Video
+                    CHOOSE YOUR ADVENTURE
                   </h3>
                   <p className="mt-2 text-muted-foreground">
-                    Tell us what you want to see yourself doing in the video. Be
-                    as detailed as possible.
+                    Tell us exactly what you want to be doing in your video. Surfing a giant wave? Giving a TED talk? Flying through space? You decide!
                   </p>
                 </div>
               </CardContent>
@@ -294,11 +297,10 @@ const Home = () => {
                     <span className="text-xl font-bold text-primary">2</span>
                   </div>
                   <h3 className="mt-4 text-xl font-bold">
-                    Upload Reference Images
+                    SEND A PHOTO
                   </h3>
                   <p className="mt-2 text-muted-foreground">
-                    Provide a few photos of yourself so our AI can accurately
-                    recreate your likeness.
+                    We need just one clear image of you (or whoever you want in the video). That's all we need to create your custom experience.
                   </p>
                 </div>
               </CardContent>
@@ -309,10 +311,9 @@ const Home = () => {
                   <div className="mx-auto h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center">
                     <span className="text-xl font-bold text-primary">3</span>
                   </div>
-                  <h3 className="mt-4 text-xl font-bold">Receive Your Video</h3>
+                  <h3 className="mt-4 text-xl font-bold">RECEIVE YOUR VIDEO</h3>
                   <p className="mt-2 text-muted-foreground">
-                    Our AI generates your custom video, which you can download
-                    and share with friends.
+                    Within 24 hours, you'll get your custom AI video ready to share, save, and treasure. Watch your friends' jaws drop!
                   </p>
                 </div>
               </CardContent>
@@ -331,11 +332,10 @@ const Home = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold">
-              What Our Customers Say
+              REAL CUSTOMERS, REAL REACTIONS
             </h2>
             <p className="mt-4 text-xl text-muted-foreground max-w-2xl mx-auto">
-              Don't just take our word for it. Here's what people are saying
-              about our AI videos.
+              Don't just take our word for it. Here's what people are saying about their custom AI videos.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -348,7 +348,7 @@ const Home = () => {
                     alt="John D."
                     className="h-16 w-16 rounded-full mb-4"
                   />
-                  <h3 className="text-lg font-bold">John D.</h3>
+                  <h3 className="text-lg font-bold">Jake M.</h3>
                   <div className="flex items-center mt-1 mb-4">
                     {[...Array(5)].map((_, i) => (
                       <svg
@@ -362,9 +362,7 @@ const Home = () => {
                     ))}
                   </div>
                   <p className="text-muted-foreground text-center">
-                    "I couldn't believe how realistic the video looked! I showed
-                    it to my friends and they were amazed. Definitely worth
-                    every penny."
+                    "I sent this to my girlfriend – me singing with her favorite band – and she literally screamed! Best $10 I've ever spent on a gift."
                   </p>
                 </div>
               </CardContent>
@@ -379,7 +377,7 @@ const Home = () => {
                     alt="Sarah M."
                     className="h-16 w-16 rounded-full mb-4"
                   />
-                  <h3 className="text-lg font-bold">Sarah M.</h3>
+                  <h3 className="text-lg font-bold">Sarah T.</h3>
                   <div className="flex items-center mt-1 mb-4">
                     {[...Array(5)].map((_, i) => (
                       <svg
@@ -393,8 +391,7 @@ const Home = () => {
                     ))}
                   </div>
                   <p className="text-muted-foreground text-center">
-                    "The process was so easy, and the results exceeded my
-                    expectations. I've already ordered three more videos!"
+                    "My son's face when he saw himself 'flying' like his favorite superhero was PRICELESS. I've ordered five more videos already!"
                   </p>
                 </div>
               </CardContent>
@@ -409,7 +406,7 @@ const Home = () => {
                     alt="Michael T."
                     className="h-16 w-16 rounded-full mb-4"
                   />
-                  <h3 className="text-lg font-bold">Michael T.</h3>
+                  <h3 className="text-lg font-bold">David K.</h3>
                   <div className="flex items-center mt-1 mb-4">
                     {[...Array(5)].map((_, i) => (
                       <svg
@@ -423,9 +420,7 @@ const Home = () => {
                     ))}
                   </div>
                   <p className="text-muted-foreground text-center">
-                    "Used this for a birthday surprise and it was a huge hit!
-                    Customer service was excellent when I needed some
-                    adjustments."
+                    "Used this for our company social media and engagement went up 300%. Everyone thought we had some massive production budget!"
                   </p>
                 </div>
               </CardContent>
@@ -438,14 +433,19 @@ const Home = () => {
       <section className="py-20 px-4 md:px-6 bg-primary text-primary-foreground">
         <div className="container mx-auto max-w-4xl text-center">
           <h2 className="text-3xl md:text-4xl font-bold">
-            Ready to Create Your AI Video?
+            DON'T JUST DREAM IT. BE IT.
           </h2>
           <p className="mt-4 text-xl max-w-2xl mx-auto opacity-90">
-            Join thousands of satisfied customers and create your personalized
-            AI video today.
+            While everyone else is posting the same boring selfies...
+            <br /><br />
+            <strong>You'll be sharing the impossible.</strong>
+            <br /><br />
+            The only limit is your imagination.
+            <br /><br />
+            <em>Special Launch Offer: Use code "FIRSTADVENTURE" for 20% off your first order!</em>
           </p>
           <Button size="lg" variant="secondary" className="mt-8" asChild>
-            <Link to="/order">Get Started Now</Link>
+            <Link to="/order">CREATE YOUR VIDEO NOW</Link>
           </Button>
         </div>
       </section>
